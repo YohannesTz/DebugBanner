@@ -1,7 +1,11 @@
 # DebugBanner
 banner to be embedded in Native apps. check out the origional project [here](https://github.com/armcha/DebugBanner?utm_source=android-arsenal.com&utm_medium=referral&utm_campaign=7090)
 
-# Installation
+## Screenshots
+![](./screenshots/img_1.png)
+![](./screenshots/img_2.png)
+![](./screenshots/img_3.png)
+## Installation
 first add Jitpack to your project
 ```groovy
 allprojects {
@@ -15,7 +19,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-    implementation 'com.github.YohannesTz:DebugBanner:1.0.0'
+    implementation 'com.github.YohannesTz:DebugBanner:1.0.1'
 }
 ```
 
