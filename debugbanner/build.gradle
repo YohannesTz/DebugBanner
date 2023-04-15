@@ -43,15 +43,17 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-
 afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
                 groupId = 'com.github.yohannestz'
                 artifactId = 'debugbanner'
-                version = '1.0.0'
+                version = '0.0.1'
+
+                afterEvaluate {
+                    from components.release
+                }
             }
         }
     }

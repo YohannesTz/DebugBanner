@@ -19,7 +19,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-    implementation 'com.github.YohannesTz:DebugBanner:1.0.1'
+    implementation 'com.github.YohannesTz:DebugBanner:0.0.1'
 }
 ```
 
